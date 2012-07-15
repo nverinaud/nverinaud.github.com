@@ -1,0 +1,145 @@
+@import url(http://fonts.googleapis.com/css?family=Belgrano);
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Belgrano', Helvetica, serif;
+
+	background: #499bea;
+	background: -moz-radial-gradient(center, ellipse cover,  #499bea 0%, #207ce5 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#499bea), color-stop(100%,#207ce5));
+	background: -webkit-radial-gradient(center, ellipse cover,  #499bea 0%,#207ce5 100%);
+	background: -o-radial-gradient(center, ellipse cover,  #499bea 0%,#207ce5 100%);
+	background: -ms-radial-gradient(center, ellipse cover,  #499bea 0%,#207ce5 100%);
+	background: radial-gradient(ellipse at center,  #499bea 0%,#207ce5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=1 );
+
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	margin: 0;
+}
+
+h1 {
+	font-size: 4em;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5px;
+	color:#fff;
+}
+
+.shadowed-text {
+	text-shadow: 0px 1px 1px #000;
+  filter: dropshadow(color=#000, offx=0, offy=1);
+}
+
+.avatar {
+	display: block;
+	margin: 1em auto;
+	background: white;
+	border: 3px solid white;
+	box-shadow: 1px 1px 12px #555;
+}
+
+.clear {
+	clear: both;
+}
+
+/*
+	Thanks to Matthew James Taylor for the centered menu.
+	(http://matthewjamestaylor.com/blog/beautiful-css-centered-menus-no-hacks-full-cross-browser-support)
+*/
+#centeredmenu {
+   float:left;
+   width:100%;
+   overflow:hidden;
+   position:relative;
+}
+#centeredmenu ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+}
+#centeredmenu ul li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+#centeredmenu ul li a {
+   display:block;
+   margin:0 0 0 1px;
+   padding:3px 10px;
+   text-decoration:none;
+   line-height:1.3em;
+}
+
+li {
+	color: #A1CDFF;
+	font-size: 1.4em;
+}
+
+a {
+  color: #A1CDFF;
+}
+
+a:hover, a:focus, a:active {
+	color: #fff;
+  background-color: #207CE5;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+}
+
+#centeredmenu li.separator {
+	margin-left: 0.6em;
+	margin-right: 0.6em;
+}
+
+/*
+	Responsive
+*/
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.hidden-phone {
+		display: none !important;
+	}
+
+	h1 {
+		font-size: 2.5em;
+		margin-top: 0;
+	}
+
+	a {
+		font-size: 1.7em;
+	}
+
+	#centeredmenu ul li {
+		display:inherit;
+		position:inherit;
+		clear:left;
+		margin:0.6em 0;
+		text-align: center;
+	}
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	li {
+		font-size: 1.1em;
+	}
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {}
+/* Large desktop */
+@media (min-width: 1200px) {}
+
