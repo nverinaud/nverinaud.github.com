@@ -110,7 +110,10 @@ a:hover, a:focus, a:active {
 */
 
 /* Landscape phones and down */
-@media (max-width: 480px) {
+@media (max-width: 480px) {}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
 	.hidden-phone {
 		display: none !important;
 	}
@@ -130,14 +133,10 @@ a:hover, a:focus, a:active {
 		clear:left;
 		margin:0.6em 0;
 		text-align: center;
+		width: 100%;
 	}
 }
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-	li {
-		font-size: 1.1em;
-	}
-}
+
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {}
 /* Large desktop */
