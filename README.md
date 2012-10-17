@@ -4,4 +4,4 @@
 * Viadeo: [http://fr.viadeo.com/fr/profile/nicolas.verinaud](http://www.viadeo.com/fr/profile/nicolas.verinaud)
 * LinkedIn: [http://www.linkedin.com/pub/nicolas-verinaud/1a/988/782](http://www.linkedin.com/pub/nicolas-verinaud/1a/988/782)
 * Twitter: [@nverinaud](https://twitter.com/nverinaud)
-* Google: [Search for Me !](http://www.google.com/search?q=nicolas+verinaud)
+* [More...](http://www.google.com/search?q=nicolas+verinaud)
