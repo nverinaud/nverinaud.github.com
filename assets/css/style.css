@@ -113,7 +113,7 @@ a:hover, a:focus, a:active {
 @media (max-width: 480px) {}
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
+@media (max-width: 887px) {
 	.hidden-phone {
 		display: none !important;
 	}
