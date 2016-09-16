@@ -16,13 +16,12 @@ body {
 	background: radial-gradient(ellipse at center,  #499bea 0%,#207ce5 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=1 );
 
-	height: 100%;
 	background-repeat: no-repeat;
 	background-attachment:fixed;
 	margin: 0;
 }
 
-h1 {
+h1.jumbo {
 	font-size: 4em;
 	width: 100%;
 	text-align: center;
@@ -90,19 +89,58 @@ li {
 }
 
 a {
-  color: #A1CDFF;
+    color: #A1CDFF;
 }
 
-a:hover, a:focus, a:active {
-	color: #fff;
-  background-color: #207CE5;
-  -webkit-border-radius: 7px;
-  border-radius: 7px;
+#centeredmenu a:hover, #centeredmenu a:focus, #centeredmenu a:active {
+    color: #fff;
+    background-color: #207CE5;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
 }
 
 #centeredmenu li.separator {
 	margin-left: 0.6em;
 	margin-right: 0.6em;
+}
+
+section#cours_en_redaction {
+    /*background-color: rgba(255, 255, 255, 0.95);*/
+    padding: 10px 20px 20px 20px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+section#cours_en_redaction article {
+    background-color: #fff;
+    padding: 5px;
+}
+
+section h1 {
+    color: #fff;
+    font-size: 1.6em;
+    margin: 0;
+}
+
+section h2 {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0px 0px 20px 0px;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+article h1 {
+    color: #000;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+article a {
+    color: rgb(49, 140, 235);
+    text-decoration: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
 }
 
 /*
@@ -118,12 +156,12 @@ a:hover, a:focus, a:active {
 		display: none !important;
 	}
 
-	h1 {
+	h1.jumbo {
 		font-size: 2.5em;
 		margin-top: 0;
 	}
 
-	a {
+	#centeredmenu a {
 		font-size: 1.7em;
 	}
 
