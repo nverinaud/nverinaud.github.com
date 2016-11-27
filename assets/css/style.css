@@ -106,7 +106,7 @@ a {
 
 section.card-container {
     /*background-color: rgba(255, 255, 255, 0.95);*/
-    padding: 10px 20px 20px 20px;
+    padding: 10px 8px 20px 8px;
     margin-bottom: 20px;
     max-width: 600px;
     margin: auto;
@@ -147,6 +147,14 @@ article a {
     text-decoration: none;
     -webkit-border-radius: 0px;
     border-radius: 0px;
+}
+
+footer {
+  background-color: #000;
+}
+
+footer iframe {
+  max-width: 600px;
 }
 
 /*
