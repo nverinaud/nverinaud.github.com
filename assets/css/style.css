@@ -104,7 +104,7 @@ a {
 	margin-right: 0.6em;
 }
 
-section#cours_en_redaction {
+section.card-container {
     /*background-color: rgba(255, 255, 255, 0.95);*/
     padding: 10px 20px 20px 20px;
     margin-bottom: 20px;
@@ -112,9 +112,15 @@ section#cours_en_redaction {
     margin: auto;
 }
 
-section#cours_en_redaction article {
+section.card-container article {
     background-color: #fff;
     padding: 5px;
+    position: relative;
+}
+
+section.card-container iframe {
+  padding-top: 1em;
+  width: 100%;
 }
 
 section h1 {
